@@ -1,0 +1,10 @@
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\bin\Debug\agenda-simples.exe.config
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\bin\Debug\agenda-simples.exe
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\bin\Debug\agenda-simples.pdb
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\obj\Debug\agenda-simples.csproj.AssemblyReference.cache
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\obj\Debug\agenda-simples.csproj.SuggestedBindingRedirects.cache
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\obj\Debug\agenda_simples.Properties.Resources.resources
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\obj\Debug\agenda-simples.csproj.GenerateResource.cache
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\obj\Debug\agenda-simples.csproj.CoreCompileInputs.cache
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\obj\Debug\agenda-simples.exe
+C:\Users\enzo.soancesque\Documents\GitHub\lista-de-contatos-T4\agenda-simples\obj\Debug\agenda-simples.pdb
