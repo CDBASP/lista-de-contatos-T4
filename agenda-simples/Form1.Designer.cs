@@ -37,6 +37,8 @@
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.lstContatos = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -83,6 +85,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
             this.txtNome.TabIndex = 4;
+            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // txtSobrenome
             // 
@@ -105,6 +108,7 @@
             this.lstContatos.Name = "lstContatos";
             this.lstContatos.Size = new System.Drawing.Size(263, 186);
             this.lstContatos.TabIndex = 7;
+            this.lstContatos.SelectedIndexChanged += new System.EventHandler(this.lstContatos_SelectedIndexChanged);
             // 
             // button2
             // 
@@ -115,11 +119,30 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(108, 139);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 20);
+            this.txtEmail.TabIndex = 9;
+            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(41, 139);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(32, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Email";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 291);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lstContatos);
             this.Controls.Add(this.txtTelefone);
@@ -148,6 +171,8 @@
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.ListBox lstContatos;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label4;
     }
 }
 

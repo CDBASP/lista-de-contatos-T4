@@ -13,43 +13,58 @@ namespace agenda_simples
         private string primeiroNome;
         private string Sobrenome;
         private string telefone;
+        private string email;
 
         //propriedades (GET e SET)
         public string PrimeiroNome
         {
-        get { return PrimeiroNome; }
+        get { return primeiroNome; }
         set { primeiroNome = value; }
         }
 
         public string sobrenome
         {
             get { return sobrenome; }
-            set { sobrenome = value; }
+            set {
+                sobrenome = value;
+                //alteração:)
+                // var array = this.sobrenome.Split(new char[]
+            }
+            
+
+
         }
         public string Telefone
         {
-            get { return Telefone; }
+            get { return telefone; }
             set
             {
                 if(value.Length == 11)
                     telefone= value;
                 else 
-                    Telefone = "00-00000-0000";
+                    telefone = "00000000000";
             }
+        }
+        public string Email
+        {
+            get { return email; }
+            set { email = value; }
         }
         //metodo construtor da classe :)
         public Contato()
         {
-            primeiroNome= "José";
-            sobrenome = "Da Silva";
-            telefone = "11-99078-0976";
+            primeiroNome= "Enzo";
+            sobrenome = "Ancesque";
+            telefone = "11-99440-0976";
+            email = "enzoancesque@gmail.com";
         }
         //sobrecarga do metodo :)
-        public Contato(string primeiroNome, string sobrenome,string telefone)
+        public Contato(string primeiroNome, string sobrenome,string telefone, string email)
         {
             PrimeiroNome= primeiroNome; 
             Sobrenome= sobrenome;
             Telefone= telefone;
+            Email= email;
         }
         public override string ToString()
         {
@@ -59,7 +74,9 @@ namespace agenda_simples
             Telefone.Substring(0,1),
             Telefone.Substring(2,4),
             Telefone.Substring(7,3));
+            saida += string.Format(email);
             return saida;
+            
         }
     }
 }
